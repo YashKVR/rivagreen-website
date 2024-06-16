@@ -1,22 +1,81 @@
 import React from 'react'
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card"
+
 
 const Services = () => {
     return (
         <div className='w-dvw h-dvh flex flex-col items-center pt-[5%] bg-[#FFF5E1]'>
             <p className='text-4xl font-bold'>Our Services</p>
-            <div className="flex w-[90%] my-10 h-[60%]  justify-between">
-                <div className='border border-black rounded-lg px-2'>
-                    Services card for this section
-                </div>
-                <div className='border border-black rounded-lg px-2'>
-                    Services card for this section
-                </div>
-                <div className='border border-black rounded-lg px-2'>
-                    Services card for this section
-                </div>
-                <div className='border border-black rounded-lg px-2'>
-                    Services card for this section
-                </div>
+            <div className='flex justify-between w-full px-[3%] h-full items-center'>
+
+                <Card>
+                    <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                        <p>Card Footer</p>
+                    </CardFooter>
+                </Card>
+
+                <Card>
+                    <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                        <p>Card Footer</p>
+                    </CardFooter>
+                </Card>
+                <Card>
+                    <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                        <p>Card Footer</p>
+                    </CardFooter>
+                </Card>
+                <Card>
+                    <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                        <p>Card Footer</p>
+                    </CardFooter>
+                </Card>
+                <Card>
+                    <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                        <p>Card Footer</p>
+                    </CardFooter>
+                </Card>
             </div>
         </div>
     )
